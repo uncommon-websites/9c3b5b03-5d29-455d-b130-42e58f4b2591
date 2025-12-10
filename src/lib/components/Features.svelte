@@ -1,13 +1,13 @@
 <section class="py-32">
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="mb-20">
-      <h2 class="text-4xl md:text-5xl font-medium mb-6">Made for modern<br />product teams</h2>
+      <h2 class="text-4xl md:text-5xl font-medium mb-6">Built by and for the<br />world's best legal teams</h2>
       <div class="flex flex-col md:flex-row justify-between items-start gap-8">
         <div class="max-w-xl">
              <!-- Spacer -->
         </div>
         <p class="text-xl text-gray-400 max-w-md leading-relaxed">
-          Linear is shaped by the practices and principles that distinguish world-class product teams from the rest: relentless focus, fast execution, and a commitment to the quality of craft. <a href="#" class="text-purple-400 hover:text-purple-300 transition-colors">Make the switch ></a>
+          Harvey is shaped by the needs of elite legal professionals: domain-specific AI, enterprise-grade security, and answers grounded in trusted legal sources. <a href="#" class="text-primary-400 hover:text-primary-300 transition-colors">See how it works ></a>
         </p>
       </div>
     </div>
@@ -16,17 +16,19 @@
       <!-- Card 1 -->
       <div class="group relative bg-white/[0.02] border border-white/5 rounded-xl overflow-hidden hover:bg-white/[0.04] transition-colors h-[400px]">
         <div class="absolute inset-0 flex items-center justify-center">
-            <!-- Abstract Layers Visualization -->
+            <!-- Legal AI Visualization -->
             <div class="relative w-40 h-40">
-                <div class="absolute inset-0 bg-purple-500/20 rounded-lg transform rotate-6 scale-90 translate-x-4 translate-y-4 border border-purple-500/30"></div>
-                <div class="absolute inset-0 bg-blue-500/20 rounded-lg transform -rotate-6 scale-95 -translate-x-2 -translate-y-2 border border-blue-500/30"></div>
+                <div class="absolute inset-0 bg-primary-500/20 rounded-lg transform rotate-6 scale-90 translate-x-4 translate-y-4 border border-primary-500/30"></div>
+                <div class="absolute inset-0 bg-secondary-500/20 rounded-lg transform -rotate-6 scale-95 -translate-x-2 -translate-y-2 border border-secondary-500/30"></div>
                 <div class="absolute inset-0 bg-white/5 backdrop-blur-md rounded-lg border border-white/10 shadow-xl flex items-center justify-center">
-                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 opacity-50"></div>
+                    <svg viewBox="0 0 24 24" class="w-12 h-12 fill-primary-500 opacity-50">
+                      <path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/>
+                    </svg>
                 </div>
             </div>
         </div>
         <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
-          <h3 class="text-xl font-medium mb-2">Purpose-built for<br/>product development</h3>
+          <h3 class="text-xl font-medium mb-2">Domain-specific AI<br/>for legal work</h3>
           <div class="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-opacity">
             <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
                 <span class="text-lg">+</span>
@@ -38,16 +40,21 @@
       <!-- Card 2 -->
       <div class="group relative bg-white/[0.02] border border-white/5 rounded-xl overflow-hidden hover:bg-white/[0.04] transition-colors h-[400px]">
         <div class="absolute inset-0 flex items-center justify-center overflow-hidden">
-            <!-- Speed Lines Visualization -->
-            <div class="w-full h-full relative">
-                {#each [1,2,3,4,5] as i}
-                    <div class="absolute h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent w-full" style="top: {20 + i * 15}%; left: {-20 + i * 5}%; transform: rotate(-15deg);"></div>
-                {/each}
-                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xs font-mono text-gray-500 bg-black/50 px-2 py-1 rounded border border-white/10">50ms</div>
+            <!-- Trust Badges Visualization -->
+            <div class="w-full h-full relative flex items-center justify-center">
+                <div class="text-center space-y-4">
+                    <div class="text-5xl font-bold text-primary-400">50</div>
+                    <div class="text-sm text-gray-400">of AmLaw 100</div>
+                    <div class="flex gap-2 justify-center mt-4">
+                        <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                        <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                        <div class="w-2 h-2 rounded-full bg-primary-500"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
-          <h3 class="text-xl font-medium mb-2">Designed to move fast</h3>
+          <h3 class="text-xl font-medium mb-2">Trusted by elite firms</h3>
           <div class="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-opacity">
             <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
                 <span class="text-lg">+</span>
@@ -59,16 +66,16 @@
       <!-- Card 3 -->
       <div class="group relative bg-white/[0.02] border border-white/5 rounded-xl overflow-hidden hover:bg-white/[0.04] transition-colors h-[400px]">
         <div class="absolute inset-0 flex items-center justify-center">
-             <!-- Precision Visualization -->
+             <!-- Security Shield Visualization -->
              <div class="relative">
-                <div class="w-32 h-1 bg-white/20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                <div class="w-1 h-32 bg-white/20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                <div class="w-4 h-4 border border-purple-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-                <div class="absolute top-1/2 left-1/2 translate-x-4 translate-y-4 text-[10px] font-mono text-purple-400">Create</div>
+                <svg viewBox="0 0 24 24" class="w-24 h-24 fill-secondary-500/30 stroke-secondary-500 stroke-[0.5]">
+                  <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                </svg>
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xs font-mono text-secondary-400">SOC 2</div>
              </div>
         </div>
         <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
-          <h3 class="text-xl font-medium mb-2">Crafted to perfection</h3>
+          <h3 class="text-xl font-medium mb-2">Enterprise-grade security</h3>
           <div class="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 transition-opacity">
             <div class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center">
                 <span class="text-lg">+</span>

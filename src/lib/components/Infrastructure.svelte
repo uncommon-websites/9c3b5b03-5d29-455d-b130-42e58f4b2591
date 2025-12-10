@@ -10,27 +10,27 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
         <!-- Left Column -->
         <div>
-            <h2 class="text-4xl md:text-5xl font-medium mb-6">Built on strong<br />foundations</h2>
+            <h2 class="text-4xl md:text-5xl font-medium mb-6">Enterprise-grade<br />security & compliance</h2>
             <p class="text-xl text-gray-400 mb-16 leading-relaxed">
-                Linear is so simple to use, it's easy to overlook the wealth of complex technologies packed under the hood that keep Linear robust, safe, and blazing fast.
+                Harvey is built with the security and compliance requirements of the world's most demanding legal organizations at its core.
             </p>
             
             <div class="space-y-12">
                 <div class="group cursor-pointer">
-                    <h3 class="text-lg font-medium text-white mb-2 group-hover:text-purple-400 transition-colors">Linear Sync Engine</h3>
-                    <p class="text-gray-500 max-w-sm leading-relaxed">Built with a high-performance architecture and an obsessive focus on speed.</p>
+                    <h3 class="text-lg font-medium text-white mb-2 group-hover:text-primary-400 transition-colors">Zero training on your data</h3>
+                    <p class="text-gray-500 max-w-sm leading-relaxed">Your documents and data are never used to train Harvey's models. Complete data isolation.</p>
                 </div>
                 
                 <div class="group cursor-pointer">
-                    <h3 class="text-lg font-medium text-white mb-2 flex items-center gap-2 group-hover:text-purple-400 transition-colors">
-                        Enterprise-ready security <span class="text-gray-600 text-sm">></span>
+                    <h3 class="text-lg font-medium text-white mb-2 flex items-center gap-2 group-hover:text-primary-400 transition-colors">
+                        SOC 2 Type II certified <span class="text-gray-600 text-sm">></span>
                     </h3>
-                    <p class="text-gray-500 max-w-sm leading-relaxed">Best-in-class security practices keep your work safe and secure at every layer.</p>
+                    <p class="text-gray-500 max-w-sm leading-relaxed">Industry-standard protection with comprehensive security audits and compliance certifications.</p>
                 </div>
                 
                 <div class="group cursor-pointer">
-                    <h3 class="text-lg font-medium text-white mb-2 group-hover:text-purple-400 transition-colors">Engineered for scale</h3>
-                    <p class="text-gray-500 max-w-sm leading-relaxed">Built for teams of all sizes. From early-stage startups to global enterprises.</p>
+                    <h3 class="text-lg font-medium text-white mb-2 group-hover:text-primary-400 transition-colors">Regional data residency</h3>
+                    <p class="text-gray-500 max-w-sm leading-relaxed">Dedicated instances in US, EU, and AU regions to meet data sovereignty requirements.</p>
                 </div>
             </div>
             

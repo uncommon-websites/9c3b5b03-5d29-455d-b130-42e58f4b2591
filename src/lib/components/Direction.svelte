@@ -1,14 +1,14 @@
 <section class="py-24 overflow-hidden">
   <div class="max-w-[1200px] mx-auto px-6 mb-16">
-    <div class="flex items-center gap-2 text-green-400 mb-4 text-sm font-medium">
+    <div class="flex items-center gap-2 text-secondary-400 mb-4 text-sm font-medium">
         <svg viewBox="0 0 16 16" class="w-4 h-4 fill-current">
             <path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM2 2h12v2H2V2zm0 3h12v2H2V5zm0 3h12v2H2V8z"/>
         </svg>
-        Project and long-term planning
+        Global Legal Research
     </div>
-    <h2 class="text-4xl md:text-5xl font-medium mb-6">Set the product direction</h2>
+    <h2 class="text-4xl md:text-5xl font-medium mb-6">Research across jurisdictions</h2>
     <p class="text-xl text-gray-400 max-w-2xl">
-      <strong class="text-white">Align your team around a unified product timeline.</strong> Plan, manage, and track all product initiatives with Linear's visual planning tools.
+      <strong class="text-white">Access legal data from 60+ countries.</strong> Harvey integrates 150+ legal data sources including LexisNexis®, EUR-Lex, and regional databases worldwide.
     </p>
   </div>
 
@@ -27,26 +27,26 @@
                 {/each}
             </div>
 
-            <!-- Timeline Items -->
-            <div class="absolute top-10 left-[10%] w-[30%] h-16 bg-green-500/10 border border-green-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(34,197,94,0.1)] hover:bg-green-500/20 transition-colors cursor-pointer group">
-                <div class="w-2 h-2 rounded-full bg-green-500 mr-3"></div>
-                <span class="text-green-100 font-medium text-sm">Realtime inference</span>
-                <div class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-8 bg-gradient-to-b from-green-500/50 to-transparent"></div>
+            <!-- Timeline Items - Legal Jurisdictions -->
+            <div class="absolute top-10 left-[10%] w-[30%] h-16 bg-secondary-500/10 border border-secondary-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(34,197,94,0.1)] hover:bg-secondary-500/20 transition-colors cursor-pointer group">
+                <div class="w-2 h-2 rounded-full bg-secondary-500 mr-3"></div>
+                <span class="text-secondary-100 font-medium text-sm">US Federal & State</span>
+                <div class="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-8 bg-gradient-to-b from-secondary-500/50 to-transparent"></div>
             </div>
 
-            <div class="absolute top-32 left-[20%] w-[20%] h-16 bg-purple-500/10 border border-purple-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(168,85,247,0.1)] hover:bg-purple-500/20 transition-colors cursor-pointer">
-                <div class="w-2 h-2 rounded-full bg-purple-500 mr-3"></div>
-                <span class="text-purple-100 font-medium text-sm">Prototype</span>
+            <div class="absolute top-32 left-[20%] w-[20%] h-16 bg-primary-500/10 border border-primary-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(168,85,247,0.1)] hover:bg-primary-500/20 transition-colors cursor-pointer">
+                <div class="w-2 h-2 rounded-full bg-primary-500 mr-3"></div>
+                <span class="text-primary-100 font-medium text-sm">EU Law</span>
             </div>
 
-            <div class="absolute top-32 left-[45%] w-[15%] h-16 bg-blue-500/10 border border-blue-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(59,130,246,0.1)] hover:bg-blue-500/20 transition-colors cursor-pointer">
-                <div class="w-2 h-2 rounded-full bg-blue-500 mr-3"></div>
-                <span class="text-blue-100 font-medium text-sm">Beta</span>
+            <div class="absolute top-32 left-[45%] w-[15%] h-16 bg-secondary-500/10 border border-secondary-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(59,130,246,0.1)] hover:bg-secondary-500/20 transition-colors cursor-pointer">
+                <div class="w-2 h-2 rounded-full bg-secondary-500 mr-3"></div>
+                <span class="text-secondary-100 font-medium text-sm">UK</span>
             </div>
 
-            <div class="absolute top-56 left-[50%] w-[25%] h-16 bg-orange-500/10 border border-orange-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(249,115,22,0.1)] hover:bg-orange-500/20 transition-colors cursor-pointer">
-                <div class="w-2 h-2 rounded-full bg-orange-500 mr-3"></div>
-                <span class="text-orange-100 font-medium text-sm">RLHF fine tuning</span>
+            <div class="absolute top-56 left-[50%] w-[25%] h-16 bg-primary-500/10 border border-primary-500/30 rounded-lg backdrop-blur-sm flex items-center px-4 shadow-[0_0_30px_rgba(249,115,22,0.1)] hover:bg-primary-500/20 transition-colors cursor-pointer">
+                <div class="w-2 h-2 rounded-full bg-primary-500 mr-3"></div>
+                <span class="text-primary-100 font-medium text-sm">APAC & Latin America</span>
                 
                 <!-- Connector Line -->
                 <div class="absolute top-1/2 -left-20 w-20 h-[1px] border-t border-dashed border-white/20"></div>
